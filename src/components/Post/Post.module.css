@@ -1,0 +1,101 @@
+.post {
+  height: 700px;
+  border: 1px solid rgb(213, 213, 213);
+  margin-top: 25px;
+  width: 700px;
+  background-color: white;
+}
+
+.postUst {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.postUst img {
+  width: 35px;
+  border-radius: 50%;
+}
+.postUst p {
+  color: black;
+}
+
+.postImage img {
+  width: 699px;
+}
+
+.postAlt {
+  padding: 5px 12px;
+}
+
+.postAltUst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reactionIcon,
+.collectionIcon {
+  font-size: 25px;
+}
+
+.reactionIcon {
+  margin-left: 13px;
+}
+
+.reactionIcon1 {
+  font-size: 30px;
+  position: relative;
+  top: 2.5px;
+}
+
+.reactionIcon:hover,
+.collectionIcon:hover,
+.reactionIcon1:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.postAltInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.postAltInfo p {
+  position: relative;
+  right: 280px;
+  font-size: 15px;
+  margin-bottom: -5px;
+}
+
+.postAltInfo p span {
+  color: black;
+  font-weight: bold;
+}
+
+.postAltInfo p:nth-child(1) {
+  color: black;
+  font-weight: bold;
+  right: 290px;
+  top: 5px;
+}
+
+.postAltInfo p:nth-child(2) {
+  right: 305px;
+  top: 10px;
+}
+
+.postAltInfo p:nth-child(3) {
+  right: 260px;
+  top: 10px;
+}
+
+.postAltInfo p:nth-child(4) {
+  right: 297px;
+  top: 10px;
+}
+
+.ustRight p {
+  color: black;
+  font-weight: bold;
+}

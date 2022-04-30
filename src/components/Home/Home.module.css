@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  background-color: white;
+  border-bottom: 1px solid rgb(213, 213, 213);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.logo {
+  margin-left: 150px;
+}
+
+.search {
+  border: 1px solid rgb(228, 228, 228);
+  background-color: rgb(228, 228, 228);
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.search input {
+  background-color: rgb(228, 228, 228);
+
+  border: none;
+  text-align: left;
+}
+
+.searchIcon {
+  color: gray;
+  position: relative;
+  top: 3px;
+  right: 10px;
+}
+
+.menu {
+  margin-right: 150px;
+}
+.menu .btnIcon {
+  font-size: 25px;
+  margin-right: 15px;
+
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-left: 325px;
+  padding-right: 325px;
+  margin-top: 50px;
+}
+
+.story {
+  height: 100px;
+  border: 1px solid rgb(213, 213, 213);
+  margin-top: 25px;
+  width: 470px;
+}
+
+.post {
+  height: 500px;
+  border: 1px solid rgb(213, 213, 213);
+  margin-top: 25px;
+}
+
+.info {
+  width: 300px;
+  height: 100px;
+
+  margin-top: 25px;
+}
+
+@media (max-width: 930px) {
+  .search {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 150px;
+  }
+}
+
+.story {
+  max-width: 700px;
+  width: 700px;
+  background-color: white;
+}
+p {
+  margin: 10px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  border: 1px solid rgb(213, 213, 213);
+  outline: none;
+}
+
+.infoPic {
+  width: 65px;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+}
+
+.user,
+.switch {
+  margin-top: 25px;
+  margin-left: 13px;
+  font-size: 14px;
+}
+
+.user {
+  font-weight: bold;
+  color: black;
+}
+
+.switch {
+  margin-left: 115px;
+  color: rgb(29, 138, 255);
+}
+
+.mobilePanel {
+  display: block;
+  border-top: 1px solid rgb(213, 213, 213);
+  width: 100%;
+  height: 55px;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.mobilePanel .panelMenu {
+  margin-top: 13px;
+  width: 100%;
+}
+.panelMenu .btnIcon2 {
+  font-size: 30px;
+  margin-right: 25px;
+  cursor: pointer;
+}
